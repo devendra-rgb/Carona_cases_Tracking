@@ -19,5 +19,5 @@ def line_route():
   
   return render_template('charts.html',chart=ma)
 
-if __name__=='__main__:
+if __name__=='__main__':
     app.run()

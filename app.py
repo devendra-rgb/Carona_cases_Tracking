@@ -9,15 +9,13 @@ with open('cleaned_data.json') as f:
     dictionary=json.load(f)
 ma.add('Cases',dictionary)
 ma=ma.render_data_uri()
+
+
+
 @app.route('/')
-def hello():
-    return 'Hello World!!'
-
-
-@app.route('/line')
 def line_route():
   
-  return render_template('charts.html',chart=ma)
+  return render_template('charts.html',chart=
 
 if __name__=='__main__':
     app.run()

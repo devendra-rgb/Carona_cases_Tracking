@@ -15,7 +15,7 @@ ma=ma.render_data_uri()
 @app.route('/')
 def line_route():
   
-  return render_template('charts.html',chart=
+  return render_template('charts.html',chart=ma)
 
 if __name__=='__main__':
     app.run()

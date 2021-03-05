@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style type="text/css">
+    #chart {
+        border: black 2px solid;}
+    #link{
+        color: red;
+    }
+        
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>This is Data visualization of carona cases </h1>
+    <h1 style="font-family:sans-serif;"> Data visualization of carona cases using Pygal Library with Flask Deployment </h1>
+    <p style="color: green;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">By Devendra Tumu </p>
+    <a id=link style="text-decoration:none;font-family:verdana"href= "https://www.youtube.com/c/DeveloperDevendra" ><h2>Youtube Channel</h2> </a>
     <div id="chart">
         <embed type="image/svg+xml" src= {{ chart|safe }} />
      </div>
+
+     
 </body>
 </html>

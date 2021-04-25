@@ -14,6 +14,7 @@ pygal==2.4.0
 pygal-maps-world==1.0.2
 tinycss2==1.1.0
 webencodings==0.5.1
-requests==2017.4.17
+requests
+json
 Werkzeug==1.0.1
 gunicorn==20.0.4

@@ -2,8 +2,6 @@ from flask import Flask,render_template
 import pygal
 import json
 import requests
-from apscheduler.schedulers.background import BackgroundScheduler
-import time
 
 app=Flask(__name__)
 def refresh():

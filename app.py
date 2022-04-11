@@ -26,6 +26,7 @@ def refresh():
     a=pygal.maps.world.World()
     a.add('Cases',data)
     a.title="COVID-19 Cases Up to the date "+date
+    a.value_formatter = lambda y: "{:,}".format(y)
     a=a.render_data_uri()
     return a
 

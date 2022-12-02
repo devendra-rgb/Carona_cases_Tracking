@@ -8,7 +8,7 @@ Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
-Pillow==8.1.1
+Pillow==9.3.0
 pycparser==2.20
 pygal==2.4.0
 pygal-maps-world==1.0.2
